@@ -12,13 +12,13 @@ Pod::Spec.new do |s|
         'Victor Baro' => 'dev.vbaro@gmail.com'
     }
     s.source            = {
-        :git => 'https://github.com/iBaro/VBFPopFlatButton.git',
+        :git => 'https://github.com/sunwenjun/VBFPopFlatButton.gi',
         :tag => s.version.to_s
     }
     s.source_files      = 'VBFPopFlatButton/VBFPopFlatButtonClasses/*.{m,h}'
     s.requires_arc      = true
     s.dependency 'pop'
-    s.platform     = :ios, '7.0'
+    s.platform     = :ios, '6.0'
 
 
 end
